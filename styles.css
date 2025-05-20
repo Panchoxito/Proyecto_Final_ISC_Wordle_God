@@ -3,7 +3,9 @@
     justify-content: center;
     margin: 5px 0;
   }
-  
+  #pista {
+  color: white !important;
+}
   .cuadro {
     width: 50px;
     height: 50px;
