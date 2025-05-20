@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordle de tus Padres</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/dexie@3.2.2/dist/dexie.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="mb-5">Elige tu Modo de para Perder😤</h1>
+<p class="lead text-secondary fst-italic mb-5">
+  ¿Crees que sabes mucho de palabras? <br />
+  Entonces prepárate... porque si superas esto, ¡te ganas el respeto de las letras!
+</p>
+
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4">
+        <a href="modo_f.html" class="text-decoration-none">
+          <div class="bg-success text-white modo-card">
+            <div class="modo-icono"><i class="bi bi-emoji-smile"></i></div>
+            <h3>Fácil</h3>
+            <p>Palabras de 5 letras</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="modo_in.html" class="text-decoration-none">
+          <div class="bg-warning text-dark modo-card">
+            <div class="modo-icono"><i class="bi bi-lightning-charge"></i></div>
+            <h3>Intermedio</h3>
+            <p>Palabras de 7 letras</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="modo_d.html" class="text-decoration-none">
+          <div class="bg-danger text-white modo-card">
+            <div class="modo-icono"><i class="bi bi-fire"></i></div>
+            <h3>Modo Dios</h3>
+            <p>Palabras de 9+ letras</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
+
