@@ -488,6 +488,7 @@ function obtenerPalabra(modo) {
 var juegoDiv = document.getElementById("juego");
 juegoDiv.innerHTML = `<div id="pista" class="fw-bold text-primary mb-2"></div>`;
 
+
   
     for (var i = 0; i < intentosMaximos; i++) {
       var fila = document.createElement("div");
